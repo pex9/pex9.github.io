@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pex9.github.io/static/css/main.84984d2a.css",
-    "main.js": "/pex9.github.io/static/js/main.83308a40.js",
-    "static/js/453.ed3810f9.chunk.js": "/pex9.github.io/static/js/453.ed3810f9.chunk.js",
-    "static/media/logo.svg": "/pex9.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/pex9.github.io/index.html",
-    "main.84984d2a.css.map": "/pex9.github.io/static/css/main.84984d2a.css.map",
-    "main.83308a40.js.map": "/pex9.github.io/static/js/main.83308a40.js.map",
-    "453.ed3810f9.chunk.js.map": "/pex9.github.io/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/pex9.github.io/my-app/static/css/main.84984d2a.css",
+    "main.js": "/pex9.github.io/my-app/static/js/main.077d86ec.js",
+    "static/js/453.ed3810f9.chunk.js": "/pex9.github.io/my-app/static/js/453.ed3810f9.chunk.js",
+    "static/media/logo.svg": "/pex9.github.io/my-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/pex9.github.io/my-app/index.html",
+    "main.84984d2a.css.map": "/pex9.github.io/my-app/static/css/main.84984d2a.css.map",
+    "main.077d86ec.js.map": "/pex9.github.io/my-app/static/js/main.077d86ec.js.map",
+    "453.ed3810f9.chunk.js.map": "/pex9.github.io/my-app/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.84984d2a.css",
-    "static/js/main.83308a40.js"
+    "static/js/main.077d86ec.js"
   ]
 }
