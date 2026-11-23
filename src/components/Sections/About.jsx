@@ -9,7 +9,7 @@ function About() {
             <div className="about-description">
                 <p>
                     Master&apos;s degree in Computer Engineering from the Polytechnic University of Turin. 
-                    I am a software developer that has the goal of applying my knowledge and helping the company achieve its objectives.
+                    I am a software engineer that has the goal of applying my knowledge and helping the company achieve its objectives.
                 </p>
             </div>
             
