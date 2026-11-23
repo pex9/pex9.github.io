@@ -9,5 +9,5 @@ spec:
   ports:
   - protocol: TCP
     port: 80        # Port exposed on the Service
-    targetPort: 3000 # Port on which the app is running in the container
+    targetPort: 80 # Nginx serves the compiled production build
     nodePort: 30007  # Port on the node

@@ -60,16 +60,14 @@ Here are some screenshots of the application:
 ![Home Page](./screenshots/homepage2.png)
 
 ## Docker
-First run this commando to build your image on your pc
+Build the production bundle into a lightweight Nginx image:
 ```bash
 docker build -t my-vite-app .
 ```
-Then to run your container you have to specified the port to run it(standard 3000, if you want to change also change the port in vite.config.js)
+Run the container and open `http://localhost:3000`:
 ```bash
-docker run -p 3000:3000 my-vite-app
+docker run --rm -p 3000:80 my-vite-app
 ```
-Finally on Open your web browser and navigate to:
-```http://localhost:portypuspecified/site/```
 
 ## Github Pages
 
