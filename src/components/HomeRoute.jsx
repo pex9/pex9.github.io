@@ -17,6 +17,7 @@ function HomeRoute() {
             <Education/>
             <Resume />
             <Portfolio />
+            <Technology />
             <Footer />
         </>
     );

@@ -246,8 +246,7 @@ section h2 {
 #resume li strong p { color: var(--blue); }
 
 #portfolio, #technology { background: transparent; border: 0; box-shadow: none; }
-#portfolio > .grid,
-#technology > .grid { width: 100%; margin-top: 32px; }
+#portfolio > .grid { width: 100%; margin-top: 32px; }
 
 #portfolio .grid > div {
   height: 100%;
@@ -280,19 +279,59 @@ section h2 {
   text-decoration: none;
 }
 
-.tech-item {
-  min-height: 180px;
-  justify-content: center;
+.technology-section h2 { margin-bottom: 10px; }
+
+.section-eyebrow {
+  margin: 0 0 12px;
+  color: var(--blue);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.technology-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 16px;
+  margin: 32px auto 0;
+  max-width: 900px;
+}
+
+.technology-group {
+  padding: 22px;
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 18px;
   box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
-  transition: 180ms ease;
 }
 
-.tech-item:hover { transform: translateY(-5px); border-color: #bfdbfe; }
-.tech-item img { width: 72px !important; height: 72px !important; object-fit: contain !important; }
-.tech-item h3 { margin: 10px 0 0; color: #334155; }
+.technology-group h3 {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.technology-items { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.technology-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 14px;
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  color: #243248;
+  font-size: 0.95rem;
+  font-weight: 750;
+}
+
+.technology-item svg { width: 20px; height: 20px; flex: 0 0 auto; }
 
 footer {
   width: 100%;
@@ -317,6 +356,5 @@ footer p { margin: 0; }
   #education li, #resume li { padding: 20px; }
   #portfolio, #technology { padding-left: 10px; padding-right: 10px; }
   #portfolio .grid { grid-template-columns: 1fr; }
-  #technology > .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .tech-item { min-height: 150px; }
+  .technology-groups { grid-template-columns: 1fr; }
 }
