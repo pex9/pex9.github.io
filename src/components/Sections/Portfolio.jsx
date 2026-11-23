@@ -1,5 +1,4 @@
 // /Sections/Portfolio.jsx
-import React from 'react';
 import collaborantAnt from '../../images/portfolio/collaborant.webp';
 import backupApp from '../../images/portfolio/backupapp.webp';
 

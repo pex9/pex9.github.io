@@ -1,5 +1,4 @@
 // /Sections/Education.jsx
-import React from 'react';
 
 function Education() {
     return (

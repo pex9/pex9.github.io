@@ -1,4 +1,3 @@
-import React from 'react';
 
 // Importing your WebP images
 import openAiPic from '../../images/tech/open_ai.webp';
@@ -10,7 +9,7 @@ import mysqlPic from '../../images/tech/mysql.webp';
 import javascriptPic from '../../images/tech/js.webp';
 import reactPic from '../../images/tech/react.webp';
 
-export const FavoriteTechItems = [
+const FavoriteTechItems = [
     {
         title: 'OpenAI',
         image: openAiPic,

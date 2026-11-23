@@ -1,5 +1,4 @@
 // /Sections/About.jsx
-import React from 'react';
 import { MapIcon, FlagIcon, SparklesIcon, AcademicCapIcon } from '@heroicons/react/outline';
 import { FaDownload } from 'react-icons/fa'; // Importing download icon from react-icons
 
@@ -9,13 +8,13 @@ function About() {
             <h2 className="about-title">About Me</h2>
             <div className="about-description">
                 <p>
-                    Master's degree in Computer Engineering from the Polytechnic University of Turin. 
+                    Master&apos;s degree in Computer Engineering from the Polytechnic University of Turin. 
                     I am a software developer that has the goal of applying my knowledge and helping the company achieve its objectives.
                 </p>
             </div>
             
             {/* CV Download Button */}
-            <div className="mt-6 about-item">
+            <div className="mt-6 about-item about-cv">
                     <a 
                         href="https://www.linkedin.com/in/davide-pellegrino-53609a221/overlay/1753711275230/single-media-viewer/?profileId=ACoAADe4L3oBPuoJYBt6r8D0Tqrop7n1RqjBDdA"
                         target="_blank"
