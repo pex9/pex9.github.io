@@ -7,7 +7,7 @@ function Resume() {
             <ul className="mt-8">
 
                 <li className="mb-6">
-                   <h3 className="text-xl font-bold">Intesa San Paolo, Junior Software Engineer - Credit Risk</h3>
+                   <h3 className="text-xl font-bold">Intesa San Paolo, Software Engineer - Credit Risk</h3>
                    <strong><p className="text-gray-600">Turin, Italy (January 2026)</p> </strong>
                     <p className="text-gray-600">
                         Design and develop application software, collaborate with cross-functional teams, produce technical documentation, ensure compliance with corporate standards and regulations, analyze data models, and support project delivery and maintenance through proactive risk management and problem resolution.                    </p>
